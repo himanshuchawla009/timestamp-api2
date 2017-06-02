@@ -9,6 +9,7 @@
   "author": "camper",
   "license": "'MIT\"",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+   "validator" :"7.0.0"
   }
 }
