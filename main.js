@@ -2,6 +2,7 @@
 var express=require('express')
 var d=require('./dateconvo.js')
 var app=express()
+var port=process.env.port || 8080
 
 app.get('/:dat',function(req,res){
     
@@ -32,5 +33,5 @@ app.get('/:dat',function(req,res){
  
 
 })
-app.listen(3000)
+app.listen(port)
 
